@@ -54,6 +54,46 @@ ul{
     color: aliceblue;
     font-weight: bold;
 }
+
+/* hero */
+.hero{
+    background-image: linear-gradient(45deg, #14531d, #22c55e);
+    padding: 50px 20px;
+    color: #e2e8f0;
+
+}
+
+.hero__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+.hero__grid__content h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.hero__grid__content p{
+    margin-bottom: 40px;
+}
+
+.hero__grid__content a{
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+  transition: bacground_color 0.3s;
+}
+.hero__grid__content a:hover {
+    background-color: #1e293b;
+}
+
+
+
+
 /* TARJETAS */
 
 .card{
