@@ -1,0 +1,97 @@
+/* p{
+    color: red
+} */
+
+body{
+    height: 3000px;
+}
+
+/* clase */
+/* .parrafo-clase{
+    color: blue */
+/* } */
+/* id */
+/* #parrafo-id{
+    color:green
+} */
+/* box model */
+.caja{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 150px;
+    /* margin: 50; se aplica a los 4 margenes*/
+    /* margin: 5px 10px 15px 20px; se aplica arriba, derecha, abajo e izauierda */
+    /* margin: 15px 30px; 15 arriba y abajo, 30 derecha e izquierda*/
+    /* margin-top: 50;
+    margin-bottom: ;
+    margin-left: ; */
+    margin: 50px;
+    /* padding funciona igual que el margin */
+    /* padding: 25px; */
+    padding-top: 15px;
+    /* bordes: valor estilo color */
+    /* border: 5px dotted gray; */
+    border-bottom: 10px dashed gray;
+    border-top: 5px solid red;
+
+}
+/* transforma en linea a bloque */
+.bloque{
+    display: block;
+}
+/* transforma en bloque a en linea */
+.en-linea{
+    display: inline;
+}
+/* oculta etiquetas */
+.ocultar{
+    display: none;
+}
+/* asi se puede modificar el ancho de un elemento de linea */
+.ancho{
+    display: inline-block;
+    width: 500px;
+}
+
+.overflow{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+.caja1{
+    background-color: black;
+    position: absolute;
+    right: 0;
+    
+}
+.caja2{
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.caja3{
+    background-color: purple;
+    /* position: absolute; la deja fija en un lugar*/
+    position: absolute;
+    /* la deja que flote en la pagina */
+    bottom: 0;
+    /* la caja se va al fondo */
+    right: 0;
+    /* la caja se fue a la derecha */
+    z-index: -1;
+}
+
+.position{
+    position: relative;
+    /* habilita top right bottom y left  que incluso aceptan valores negativos*/
+    /* top: 100px; */
+}
